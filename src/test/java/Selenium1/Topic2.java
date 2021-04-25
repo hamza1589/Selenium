@@ -16,6 +16,7 @@ public class Topic2 extends TestBase {
     }
     @Test
     public void validateAlert(){
+        // this is alert handling
         setUpDriver("chrome");
         driver.get("https://demoqa.com/alerts");
         driver.manage().window().maximize();
