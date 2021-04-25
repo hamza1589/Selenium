@@ -19,6 +19,10 @@ public class TestBase {
             driver = new ChromeDriver();}
         //driver.get("https://www.ebay.com");
         }
+        public void setupUrl(String url){
+        driver.get(url);
+
+        }
 
 
     @Test
